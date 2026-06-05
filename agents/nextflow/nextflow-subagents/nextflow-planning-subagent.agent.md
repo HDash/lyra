@@ -2,11 +2,6 @@
 description: Research context and return findings to parent agent
 name: nextflow-planning-subagent
 argument-hint: Research goal or problem statement
-tools:
-  read: true
-  search: true
-  web: true
-  todo: true
 user-invocable: false
 ---
 

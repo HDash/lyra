@@ -1,13 +1,6 @@
 ---
 name: scope-project-agent
 description: 'This agent takes an existing project idea and helps build it into a fully scoped project plan, saved as a versioned plan document that can be iterated on and optionally published to a project tracker.'
-tools:
-  read: true
-  write: true
-  search: true
-  github/*: true
-  todo: true
-  web: true
 ---
 
 # Scope Project Agent

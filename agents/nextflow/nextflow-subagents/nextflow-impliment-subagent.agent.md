@@ -1,12 +1,6 @@
 ---
 description: 'Execute implementation tasks delegated by the CONDUCTOR agent.'
 name: nextflow-impliment-subagent
-tools:
-  execute: true
-  read: true
-  edit: true
-  search: true
-  todo: true
 user-invocable: false
 ---
 

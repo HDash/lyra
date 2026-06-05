@@ -1,16 +1,6 @@
 ---
 description: 'Orchestrates Planning, Implementation, and Review cycle for complex tasks'
 name: nextflow-conductor
-tools:
-  vscode: true
-  execute: true
-  read: true
-  agent: true
-  edit: true
-  search: true
-  web: true
-  todo: true
-  github/*: true
 handoffs:
   - nextflow-planning-subagent
   - nextflow-impliment-subagent

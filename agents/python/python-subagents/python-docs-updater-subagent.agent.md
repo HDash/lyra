@@ -1,12 +1,6 @@
 ---
 description: Documentation & Communication - Verifies repo docs are complete and accurate
 name: python-docs-updater-subagent
-tools:
-  read: true
-  edit: true
-  search: true
-  web: true
-  todo: true
 user-invocable: false
 ---
 

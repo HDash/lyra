@@ -1,13 +1,6 @@
 ---
 description: Guidelines & Quality Compliance - Reviews code against standards and patterns
 name: python-code-reviewer-subagent
-tools:
-  execute: true
-  read: true
-  edit: true
-  search: true
-  web: true
-  todo: true
 user-invocable: false
 ---
 

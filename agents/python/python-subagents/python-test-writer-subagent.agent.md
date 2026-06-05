@@ -1,12 +1,6 @@
 ---
 description: Test-Driven Development Lead - Writes comprehensive test cases before implementation
 name: python-test-writer-subagent
-tools:
-  execute: true
-  read: true
-  edit: true
-  search: true
-  todo: true
 user-invocable: false
 ---
 

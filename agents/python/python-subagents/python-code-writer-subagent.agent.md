@@ -1,12 +1,6 @@
 ---
 description: Implementation Developer - Writes code to make failing tests pass
 name: python-code-writer-subagent
-tools:
-  execute: true
-  read: true
-  edit: true
-  search: true
-  todo: true
 user-invocable: false
 ---
 

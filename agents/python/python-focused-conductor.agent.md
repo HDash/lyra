@@ -1,14 +1,6 @@
 ---
 description: This custom agent orchestrates complex workflows for GitHub Copilot, ensuring all tasks go through a structured planning and approval process before execution.
 name: python-focused-conductor
-tools:
-  execute: true
-  read: true
-  search: true
-  agent: true
-  todo: true
-  edit: true
-  github/*: true
 handoffs:
   - python-plan-reviewer-subagent
   - python-test-writer-subagent

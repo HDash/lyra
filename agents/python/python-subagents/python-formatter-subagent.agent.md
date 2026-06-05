@@ -1,9 +1,6 @@
 ---
 description: Code Style & Linting - Runs automated formatting and linting tools
 name: python-formatter-subagent
-tools:
-  execute: true
-  read: true
 user-invocable: false
 ---
 

@@ -1,11 +1,6 @@
 ---
 description: End-to-end pipeline validation subagent. Runs the pipeline against existing small test datasets and scientifically inspects outputs to verify correctness.
 name: nextflow-e2e-test-subagent
-tools:
-  execute: true
-  read: true
-  search: true
-  todo: true
 user-invocable: false
 ---
 

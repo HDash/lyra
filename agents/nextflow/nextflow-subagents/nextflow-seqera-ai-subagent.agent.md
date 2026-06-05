@@ -2,10 +2,6 @@
 description: Interact with Seqera AI CLI to get code recommendations
 name: nextflow-seqera-ai-subagent
 argument-hint: Brief description of what to analyze
-tools:
-  read: true
-  search: true
-  execute: true
 user-invocable: true
 ---
 

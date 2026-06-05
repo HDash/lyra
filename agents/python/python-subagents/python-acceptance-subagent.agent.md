@@ -1,11 +1,6 @@
 ---
 description: Acceptance Verifier - Validates implementation against design proposal and acceptance criteria
 name: python-acceptance-subagent
-tools:
-  read: true
-  search: true
-  execute: true
-  todo: true
 user-invocable: false
 ---
 

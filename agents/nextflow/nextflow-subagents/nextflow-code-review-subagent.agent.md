@@ -1,12 +1,6 @@
 ---
 description: Review code changes from a completed implementation phase.
 name: nextflow-code-review-subagent
-tools:
-  execute: true
-  read: true
-  edit: true
-  search: true
-  todo: true
 user-invocable: false
 ---
 

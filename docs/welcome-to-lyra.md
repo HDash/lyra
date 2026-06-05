@@ -18,7 +18,7 @@ Lyra's primitives are **platform-agnostic** — they're written in APM's canonic
 
 ### Agents
 
-An **agent** is an AI assistant with a specific role and a defined set of capabilities. It knows what it's responsible for, what tools it can use, and — crucially — what it *shouldn't* do.
+An **agent** is an AI assistant with a specific role. Its instructions define what it's responsible for, how it should approach the work, and — crucially — what it *shouldn't* do.
 
 Lyra has two types of agent:
 

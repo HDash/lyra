@@ -1,11 +1,6 @@
 ---
 description: Architecture & Design Reviewer - Analyzes existing requirements and proposes design before implementation
 name: python-plan-reviewer-subagent
-tools:
-  read: true
-  search: true
-  web: true
-  todo: true
 user-invocable: false
 ---
 
