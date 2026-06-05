@@ -1,8 +1,12 @@
 ---
 description: Documentation & Communication - Verifies repo docs are complete and accurate for mixed Python/Nextflow repositories
 name: nextflow-docs-updater-subagent
-model: Claude Sonnet 4.6 (copilot)
-tools: [read, edit, search, web, todo]
+tools:
+  read: true
+  edit: true
+  search: true
+  web: true
+  todo: true
 user-invocable: false
 ---
 

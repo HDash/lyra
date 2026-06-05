@@ -1,8 +1,12 @@
 ---
 description: Implementation Developer - Writes code to make failing tests pass
 name: python-code-writer-subagent
-model: Claude Sonnet 4.6 (copilot)
-tools: [execute, read, edit, search, todo]
+tools:
+  execute: true
+  read: true
+  edit: true
+  search: true
+  todo: true
 user-invocable: false
 ---
 

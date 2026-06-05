@@ -1,8 +1,11 @@
 ---
 description: Acceptance Verifier - Validates implementation against design proposal and acceptance criteria
 name: python-acceptance-subagent
-model: Claude Sonnet 4.6 (copilot)
-tools: [read, search, execute, todo]
+tools:
+  read: true
+  search: true
+  execute: true
+  todo: true
 user-invocable: false
 ---
 

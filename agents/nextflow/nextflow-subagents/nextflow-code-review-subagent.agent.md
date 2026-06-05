@@ -1,8 +1,12 @@
 ---
 description: Review code changes from a completed implementation phase.
 name: nextflow-code-review-subagent
-model: Claude Sonnet 4.6 (copilot)
-tools: [execute, read, edit, search, todo]
+tools:
+  execute: true
+  read: true
+  edit: true
+  search: true
+  todo: true
 user-invocable: false
 ---
 

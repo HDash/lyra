@@ -1,8 +1,12 @@
 ---
 description: 'Execute implementation tasks delegated by the CONDUCTOR agent.'
 name: nextflow-impliment-subagent
-tools: ['execute', 'read', 'edit', 'search', 'todo']
-model: Claude Sonnet 4.6 (copilot)
+tools:
+  execute: true
+  read: true
+  edit: true
+  search: true
+  todo: true
 user-invocable: false
 ---
 

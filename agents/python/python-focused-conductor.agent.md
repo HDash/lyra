@@ -1,9 +1,15 @@
 ---
 description: This custom agent orchestrates complex workflows for GitHub Copilot, ensuring all tasks go through a structured planning and approval process before execution.
 name: python-focused-conductor
-model: Claude Sonnet 4.6 (copilot)
-tools: [execute, read, search, agent, todo, edit, github/*]
-agents:
+tools:
+  execute: true
+  read: true
+  search: true
+  agent: true
+  todo: true
+  edit: true
+  github/*: true
+handoffs:
   - python-plan-reviewer-subagent
   - python-test-writer-subagent
   - python-code-writer-subagent
