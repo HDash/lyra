@@ -10,7 +10,7 @@ Lyra is a collection of reusable AI tools — **agents**, **skills**, and **inst
 
 Think of it like a toolbox: each tool has a specific job, and you combine them to get the outcome you want.
 
-Lyra's primitives are **cross-platform** — the same agents and skills run in GitHub Copilot, Claude Code, and OpenCode. The examples below use Copilot Chat, but the equivalent commands work in the other tools.
+Lyra's primitives are **platform-agnostic** — they're written in APM's canonical vocabulary, so they work with any platform APM supports (we've verified GitHub Copilot, Claude Code, and OpenCode). The examples below use Copilot Chat, but the equivalent commands work in the other tools.
 
 ---
 
