@@ -2,6 +2,8 @@
 
 Agentic primitives repository. Provides reusable agents, instructions, prompts, and skills for AI-assisted development workflows, managed via the [Microsoft Agentic Package Manager (APM)](https://github.com/microsoft/apm).
 
+The primitives are **cross-platform**: APM compiles them for GitHub Copilot, Claude Code, and OpenCode from a single canonical source.
+
 > New to agents? [Read our intro before diving in](docs/welcome-to-lyra.md)
 
 ## Contents
@@ -10,7 +12,7 @@ The `.apm/` directory contains the following primitive types:
 
 | Type | Description |
 |------|-------------|
-| `agents/` | Custom GitHub Copilot agents for orchestrating development workflows |
+| `agents/` | Cross-platform agents (Copilot, Claude Code, OpenCode) for orchestrating development workflows |
 | `instructions/` | Coding guidelines applied automatically to matching file types |
 | `prompts/` | Reusable prompt templates |
 | `skills/` | Reusable skill definitions |
